@@ -2,6 +2,7 @@ package entitles
 
 import (
 	"sync"
+	"runtime"
 	"fmt"
 )
 
@@ -33,8 +34,7 @@ func intCounter3 (id int) {
 		mutux.Lock()
 		{
 			value := counter3
-			//runtime.Gosched()
-			fmt.Println(id)
+			runtime.Gosched()
 			value++
 			counter3 = value
 
