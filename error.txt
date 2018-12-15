@@ -1,0 +1,3 @@
+ERROR2018/12/15 12:33:18 logger.go:38: Something has failed
+ERROR2018/12/15 12:35:13 logger.go:38: Something has failed
+ERROR: 2018/12/15 12:36:01 logger.go:38: Something has failed

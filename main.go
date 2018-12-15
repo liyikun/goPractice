@@ -9,6 +9,7 @@ import (
 	"time"
 	"math/rand"
 	"./work"
+	"./logger"
 )
 
 func main()  {
@@ -16,7 +17,7 @@ func main()  {
 	//entitles.MutixMain()
 	//PoolMain()
 	//workMain()
-	LogMain()
+	logger.LogMain()
 }
 
 
