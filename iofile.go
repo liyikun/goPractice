@@ -17,3 +17,4 @@ func IOExample() {
 
 	io.Copy(os.Stdout,&b)
 }
+
